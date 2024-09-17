@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jdenning33/iq7-cli-templates/main/iq7/Iq7BlockDefinitionSchema.json",
+    "feature": "auth",
+    "basePath": "../src",
+    "steps": [
+        {
+            "type": "file",
+            "fileType": "contract",
+            "path": "@/contracts/authContract.ts"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jdenning33/iq7-cli-templates/main/iq7/Iq7BlockDefinitionSchema.json",
+    "feature": "auth",
+    "basePath": "../src",
+    "steps": [
+        {
+            "type": "import",
+            "fileType": "contract",
+            "path": "@/contracts/authContract.ts"
+        },
+        {
+            "type": "package",
+            "name": "zustand"
+        },
+        {
+            "type": "command",
+            "command": "echo NEXT_PUBLIC_SUPABASE_URL=your-project-url > .env.local"
+        },
+        {
+            "type": "file",
+            "fileType": "hook",
+            "path": "@/hooks/useAuth.ts"
+        }
+    ]
+}
