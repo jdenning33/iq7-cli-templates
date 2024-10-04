@@ -10,12 +10,12 @@
         {
             "type": "import",
             "fileType": "hook",
-            "path": "@/hooks/useAuth"
+            "path": "@/features/auth-full/hooks/useAuth"
         },
         {
             "type": "file",
             "fileType": "component",
-            "path": "@/components/AuthGuard.tsx"
+            "path": "@/features/auth-full/components/AuthGuard.tsx"
         }
     ]
 }

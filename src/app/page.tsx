@@ -1,7 +1,7 @@
 'use client';
-import AuthGuard from '@/components/AuthGuard';
-import { SignUpComponent } from '@/components/SignUpComponent';
-import UserProfileMenu from '@/components/UserProfileMenu';
+import AuthGuard from '@/features/auth-full/components/AuthGuard';
+import { SignUpComponent } from '@/features/auth-full/components/SignUpComponent';
+import UserProfileMenu from '@/features/auth-full/components/UserProfileMenu';
 
 export default function Home() {
     return (

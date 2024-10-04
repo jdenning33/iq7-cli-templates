@@ -6,7 +6,7 @@
         {
             "type": "import",
             "fileType": "contract",
-            "path": "@/contracts/authContract.ts"
+            "path": "@/features/auth-full/contracts/authContract.ts"
         },
         {
             "type": "package",
@@ -19,7 +19,7 @@
         {
             "type": "file",
             "fileType": "hook",
-            "path": "@/hooks/useAuth.ts"
+            "path": "@/features/auth-full/hooks/useAuth.ts"
         }
     ]
 }

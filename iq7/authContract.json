@@ -6,7 +6,7 @@
         {
             "type": "file",
             "fileType": "contract",
-            "path": "@/contracts/authContract.ts"
+            "path": "@/features/auth-full/contracts/authContract.ts"
         }
     ]
 }

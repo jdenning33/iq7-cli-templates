@@ -1,5 +1,9 @@
+import {
+    AuthState,
+    FullAuthHook,
+    User,
+} from '@/features/auth-full/contracts/authContract';
 import { create } from 'zustand';
-import { AuthState, User, FullAuthHook } from '@/contracts/authContract';
 
 interface AuthStore extends AuthState {
     users: User[];

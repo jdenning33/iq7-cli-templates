@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAuth } from '@/hooks/useAuth';
+import { useAuth } from '@/features/auth-full/hooks/useAuth';
 import { Button } from '@/ui/button';
 import {
     Dialog,
